@@ -1,0 +1,53 @@
+/* About.css */
+.about {
+  padding: 80px 0; /* Adjust padding as needed */
+  background-color: #f0f0f0; /* Light gray background */
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto; 
+  padding: 0 20px; 
+}
+
+.intro-card {
+  background-color: #fff; 
+  padding: 40px; 
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  margin-bottom: 40px; /* Space between intro card and certifications */
+}
+
+.intro-title {
+  font-size: 2.5rem; /* Larger font size for intro title */
+  font-weight: bold;
+  margin-bottom: 20px; /* Space below intro title */
+}
+
+.intro-text {
+  font-size: 1.2rem; /* Font size for intro text */
+  color: #666; /* Gray color for intro text */
+}
+
+.certifications-list {
+  margin-top: 20px;
+}
+
+.certification-card {
+  background-color: #fff; /* White background for certification card */
+  padding: 20px; /* Padding around certification card */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  margin-bottom: 20px; /* Space between certification cards */
+}
+
+.certification-title {
+  font-size: 1.5rem; /* Title font size */
+  font-weight: bold;
+  margin-bottom: 10px; /* Space below title */
+}
+
+.certification-description {
+  font-size: 1rem; /* Description font size */
+  color: #666; /* Gray color for description */
+}
