@@ -35,7 +35,7 @@ const Home = () => {
             className="gradient-text inline-block mt-4 text-2xl"
             style={{ color: '#ca4f88' }}
           >
-            MERN STACK DEVELOPER...
+            MERN STACK DEVELOPER..
           </motion.span>
           <br />
           <motion.a
@@ -49,7 +49,7 @@ const Home = () => {
             Resume
           </motion.a>
         </motion.p>
-        <div className="flex flex-col lg:flex-row items-center mt-4 space-y-4 lg:space-y-0 lg:space-x-4 mt-[-20%] lg:mt-1 mr-[90%] z-9">
+        <div className="flex flex-col lg:flex-row items-center mt-4 space-y-4 lg:space-y-0 lg:space-x-4 lg:mt-1 mr-[90%] z-9">
           <motion.a
             href="https://github.com/RamkumarPeraman"
             target="_blank" rel="noopener noreferrer"
