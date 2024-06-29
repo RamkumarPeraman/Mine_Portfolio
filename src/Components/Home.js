@@ -1,5 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { FiGithub, FiLinkedin, FiCode } from 'react-icons/fi';
+import { FaInstagram, FaFacebook, FaTwitter } from 'react-icons/fa';
 import './css/Home.css';
 import rm from '../img/Rm.png';
 import resume from '../Pdf/Resume.pdf';
@@ -47,6 +49,40 @@ const Home = () => {
             Resume
           </motion.a>
         </motion.p>
+        <div className="flex flex-col lg:flex-row items-center mt-4 space-y-4 lg:space-y-0 lg:space-x-4 mt-[-50%] lg:mt-1 mr-[90%] z-9">
+          <motion.a
+            href="https://github.com/RamkumarPeraman"
+            target="_blank" rel="noopener noreferrer"
+            className="text-gray-700 hover:text-gray-900 transition-transform duration-300"
+            whileHover={{ scale: 1.2 }}
+          >
+            <FiGithub className="text-3xl sm:text-4xl" />
+          </motion.a>
+          <motion.a
+            href="https://www.linkedin.com/in/ramkumarperaman/"
+            target="_blank" rel="noopener noreferrer"
+            className="text-gray-700 hover:text-gray-900 transition-transform duration-300"
+            whileHover={{ scale: 1.2 }}
+          >
+            <FiLinkedin className="text-3xl sm:text-4xl" />
+          </motion.a>
+          <motion.a
+            href="https://leetcode.com/u/ramkumarperaman/"
+            target="_blank" rel="noopener noreferrer"
+            className="text-gray-700 hover:text-gray-900 transition-transform duration-300"
+            whileHover={{ scale: 1.2 }}
+          >
+            <FiCode className="text-3xl sm:text-4xl" />
+          </motion.a>
+          <motion.a
+            href="https://www.instagram.com/cholo_idiot"
+            target="_blank" rel="noopener noreferrer"
+            className="text-gray-700 hover:text-gray-900 transition-transform duration-300"
+            whileHover={{ scale: 1.2 }}
+          >
+            <FaInstagram className="text-3xl sm:text-4xl" />
+          </motion.a>
+        </div>
       </div>
       <motion.div
         className="lg:w-1/2 lg:ml-12 mt-[-5%] lg:mt-[-7%] relative overflow-hidden"
@@ -54,7 +90,7 @@ const Home = () => {
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1 }}
       >
-        <div className="relative h-80 w-80 lg:h-full lg:w-full lg:mr-10 mr-2 md:rounded-[8%] lg:rounded-[1%] rounded-[1%] overflow-hidden">
+        <div className="relative h-80 w-80 lg:h-full lg:w-full lg:mr-10 mr-2 md:rounded-[8%] lg:rounded-[1%] mt-[5%] rounded-[1%] overflow-hidden">
           <motion.img
             src={rm}
             alt="Ramkumar P"
