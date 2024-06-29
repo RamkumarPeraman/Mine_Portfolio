@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/Mine_Portfolio/static/css/main.d9b9586e.css",
-    "main.js": "/Mine_Portfolio/static/js/main.df5c76b5.js",
+    "main.css": "/Mine_Portfolio/static/css/main.449e09a7.css",
+    "main.js": "/Mine_Portfolio/static/js/main.5427fe7d.js",
     "static/js/453.1407b060.chunk.js": "/Mine_Portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/Resume.pdf": "/Mine_Portfolio/static/media/Resume.afa96db105dc4d3739b3.pdf",
     "static/media/Rm.png": "/Mine_Portfolio/static/media/Rm.5722b5ffc63c43389266.png",
     "static/media/roi.png": "/Mine_Portfolio/static/media/roi.628934b234e035fb5eee.png",
     "static/media/parko.png": "/Mine_Portfolio/static/media/parko.1d66880fd0c4daa96d37.png",
     "static/media/prof.jpeg": "/Mine_Portfolio/static/media/prof.5229ee46d0a6d9bf9277.jpeg",
     "static/media/c.png": "/Mine_Portfolio/static/media/c.03c8a45087dfb8c8c445.png",
     "index.html": "/Mine_Portfolio/index.html",
-    "main.d9b9586e.css.map": "/Mine_Portfolio/static/css/main.d9b9586e.css.map",
-    "main.df5c76b5.js.map": "/Mine_Portfolio/static/js/main.df5c76b5.js.map",
+    "main.449e09a7.css.map": "/Mine_Portfolio/static/css/main.449e09a7.css.map",
+    "main.5427fe7d.js.map": "/Mine_Portfolio/static/js/main.5427fe7d.js.map",
     "453.1407b060.chunk.js.map": "/Mine_Portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d9b9586e.css",
-    "static/js/main.df5c76b5.js"
+    "static/css/main.449e09a7.css",
+    "static/js/main.5427fe7d.js"
   ]
 }
