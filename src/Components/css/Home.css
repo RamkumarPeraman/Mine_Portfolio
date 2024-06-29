@@ -47,3 +47,30 @@
     border-color: transparent;
   }
 }
+
+/* Home.css */
+
+.resume-button {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #1e90ff;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.resume-button:hover {
+  background-color: #1c86ee;
+  transform: scale(1.1);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.resume-button:active {
+  background-color: #187bcd;
+  transform: scale(0.9);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

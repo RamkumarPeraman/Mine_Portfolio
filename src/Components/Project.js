@@ -9,7 +9,7 @@ const Project = () => {
       id: 1,
       title: 'Parko',
       description: 'Enhanced front-end functionality of the User Panel for booking parking lots online.',
-      details: 'Detailed description and features of the Parko project developed during a hackathon.',
+      details: '',
       photo:parkoImage,
       objectives: [
         'Implement real-time updates for parking availability',
@@ -23,7 +23,7 @@ const Project = () => {
       id: 2,
       title: 'ROI Calculator',
       description: 'A tool to calculate return on investment for financial projects',
-      details: 'Detailed description and features of the ROI alculator project.',
+      details: '',
       photo: ROIImage,
       objectives: [
         'Calculate ROI based on user inputs',
