@@ -29,7 +29,7 @@ const App = () => {
             <Route path='/project' element={<Project />} />
           </Routes>
         </div>
-        <div className="md:hidden lg:hidden">
+        <div className="md:hidden lg:hidden w-[100%]">
             <Home />
             <About />
             <Education />
