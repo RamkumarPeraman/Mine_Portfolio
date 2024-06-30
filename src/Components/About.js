@@ -21,7 +21,7 @@ const About = () => {
   }, []);
 
   return (
-    <section ref={aboutRef} className="about">
+    <section ref={aboutRef} className="about" id='about'>
       <motion.div
         className="about-content"
         initial={{ opacity: 0 }}

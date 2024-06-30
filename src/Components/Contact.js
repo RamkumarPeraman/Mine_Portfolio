@@ -24,6 +24,7 @@ const Contact = () => {
   };
 
   return (
+    <div className="" id='contact'>
     <motion.section
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
@@ -163,6 +164,7 @@ const Contact = () => {
         </motion.div>
       </div>
     </motion.section>
+    </div>
   );
 }
 

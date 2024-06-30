@@ -38,6 +38,7 @@ const Skill = () => {
   ];
 
   return (
+    <div className="" id='skills'>
     <motion.section
       className="skills py-20 bg-gray-100"
       initial={{ opacity: 0 }}
@@ -74,6 +75,7 @@ const Skill = () => {
         </motion.ul>
       </div>
     </motion.section>
+    </div>
   );
 };
 
