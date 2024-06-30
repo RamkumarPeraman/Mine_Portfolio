@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 const certifications = [
   { id: 1, title: 'Responsive WebDesign', description: 'Freecodecamp' },
   { id: 2, title: 'Javascript', description: 'Freecodecamp' },
-  { id: 3, title: 'Fundamentals of Blockchain', description: 'Udamy' },
+  { id: 3, title: 'Fundamentals of Blockchain', description: 'Udemy' },
 ];
 
 const About = () => {
