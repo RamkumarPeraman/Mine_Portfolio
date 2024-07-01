@@ -22,23 +22,23 @@ const Header = () => {
                 {/* <Link to="/" className="hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium" onClick={handleLinkClick}>Home</Link> */}
               </li>
               <li>
-              <a href="about" className="hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium" >About</a>
+              <a href="#about" className="hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium" >About</a>
                 {/* <Link to="/about" className="hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium" onClick={handleLinkClick}>About</Link> */}
               </li>
               <li>
-              <a href="education" className="hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium" >Education</a>
+              <a href="#education" className="hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium" >Education</a>
                 {/* <Link to="/education" className="hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium" onClick={handleLinkClick}>Education</Link> */}
               </li>
               <li>
-              <a href="skills" className="hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium" >Skills</a>
+              <a href="#skills" className="hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium" >Skills</a>
                 {/* <Link to="/skill" className="hover:bg-gray-100 px-3 py-2 rounded-md text-sm font-medium" onClick={handleLinkClick}>Skill</Link> */}
               </li>
               <li>
-              <a href="project" className="hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium" >Projects</a>
+              <a href="#project" className="hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium" >Projects</a>
                 {/* <Link to="/project" className="hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium" onClick={handleLinkClick}>Project</Link> */}
               </li>
               <li>
-              <a href="contact" className="hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium" >Contact</a>
+              <a href="#contact" className="hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium" >Contact</a>
                 {/* <Link to="/contact" className="hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium" onClick={handleLinkClick}>Contact</Link> */}
               </li>
             </ul>
@@ -69,7 +69,7 @@ const Header = () => {
         <div className="md:hidden" id="mobile-menu">
           <ul className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <li>
-            <a href="*" className="hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium" onClick={handleLinkClick}>Home</a>
+            <a href="#" className="hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium" onClick={handleLinkClick}>Home</a>
               {/* <Link to="/" className="hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium" onClick={handleLinkClick}>Home</Link> */}
             </li>
             <li>
