@@ -47,7 +47,7 @@ const About = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.7, duration: 0.8 }}
           >
-            <p className="font-bold mb-2">Certifications:</p>
+            <p className="font-bold mb-2">Certifications</p>
           </motion.div>
           {certifications.map((certification) => (
             <motion.div
