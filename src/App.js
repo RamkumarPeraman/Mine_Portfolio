@@ -19,8 +19,9 @@ const App = () => {
           <Header />
         </div>
 
-        <div className="w-full md:w-[80%]  overflow-y-auto h-screen">
+        <div className="w-full md:w-[80%]  overflow-y-auto h-screen md:block lg:block hidden">
           <Routes basename = "Mine_Portfolio">
+            
             <Route path='*' element={<Home />} />
             <Route path='/contact' element={<Contact />} />
             <Route path='/about' element={<About />} />

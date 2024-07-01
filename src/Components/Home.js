@@ -35,7 +35,7 @@ const Home = () => {
             className="gradient-text inline-block mt-4 text-2xl"
             style={{ color: '#ca4f88' }}
           >
-            MERN STACK DEVELOPER..
+            MERN STACK DEVELOPER...
           </motion.span>
           <br />
           <motion.a
