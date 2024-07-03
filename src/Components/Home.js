@@ -8,7 +8,7 @@ import resume from '../Pdf/Resume.pdf';
 
 const Home = () => {
   return (
-    <section className="home bg-cover bg-center min-h-screen flex flex-col lg:flex-row items-center bg-gray-100 overflow-hidden" id='home'>
+    <section className="home bg-cover bg-center min-h-screen flex flex-col lg:flex-row items-center bg-gray-100 overflow-hidden" id='hom'>
       <div className="home-content mt-12 text-center text-black px-4 sm:px-6 lg:px-8 lg:w-1/2 lg:text-left lg:flex lg:flex-col lg:justify-center">
         <motion.h1
           initial={{ opacity: 0, y: -20 }}

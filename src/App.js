@@ -8,6 +8,7 @@ import Project from './Components/Project';
 import Skill from './Components/Skill';
 import Education from './Components/Education';
 import Header from './Pages/Header';
+import Empty from './Components/Empty';
 
 const App = () => {
   return (
@@ -31,6 +32,7 @@ const App = () => {
           </Routes>
         </div>
         <div className="lg:hidden md:hidden block">
+        {/* <Empty/> */}
         <Home />
         <About />
         <Education />

@@ -69,7 +69,7 @@ const Header = () => {
         <div className="md:hidden" id="mobile-menu">
           <ul className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
             <li>
-            <a href="#" className="hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium" onClick={handleLinkClick}>Home</a>
+            <a href="#hom" className="hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium" onClick={handleLinkClick}>Home</a>
               {/* <Link to="/" className="hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium" onClick={handleLinkClick}>Home</Link> */}
             </li>
             <li>
